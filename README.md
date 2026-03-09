@@ -5,8 +5,7 @@ React + Vite frontend for the WorldWise project.
 ## Live Links
 
 - Frontend repo: https://github.com/Ahmed-Adel-Morsi/Worldwise
-- Backend repo: https://github.com/Ahmed-Adel-Morsi/worldwise-api
-- Live API: https://worldwise-api-9gg8.onrender.com/
+- MockAPI base: https://69ae0d49b50a169ec880cbc3.mockapi.io
 
 ## What This App Does
 
@@ -14,7 +13,7 @@ React + Vite frontend for the WorldWise project.
 - Displays cities on an interactive Leaflet map.
 - Lets users click the map to create a city entry.
 - Prefills city/country via reverse geocoding.
-- Stores and reads city records from the backend API.
+- Stores and reads city records from MockAPI.
 
 ## Tech Stack
 
@@ -54,12 +53,18 @@ The app currently uses a frontend-only fake auth flow for protected routes.
 ## API Integration
 
 - API base URL is currently set in `src/context/CitiesContext.jsx`:
-  - `https://worldwise-api-9gg8.onrender.com`
+  - `https://69ae0d49b50a169ec880cbc3.mockapi.io`
 - Main resource used by the app:
   - `GET /cities`
   - `GET /cities/:id`
   - `POST /cities`
   - `DELETE /cities/:id`
+
+## Notes
+
+- This repository is frontend-only.
+- No local backend server is required when using MockAPI.
+- If you change MockAPI project URL, update `BASE_URL` in `src/context/CitiesContext.jsx`.
 
 ## Deployment Notes
 

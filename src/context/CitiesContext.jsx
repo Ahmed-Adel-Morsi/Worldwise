@@ -6,7 +6,8 @@ import {
   useReducer,
 } from "react";
 
-const BASE_URL = "https://worldwise-api-9gg8.onrender.com";
+// const BASE_URL = "https://worldwise-api-9gg8.onrender.com";
+const BASE_URL = "https://69ae0d49b50a169ec880cbc3.mockapi.io";
 
 const CitiesContext = createContext();
 

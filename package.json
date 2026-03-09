@@ -1,7 +1,7 @@
 {
   "name": "worldwise",
   "private": true,
-  "homepage": "https://ahmed-adel-morsi.github.io/Worldwise/",
+  "homepage": "https://ahmed-adel-morsi.github.io/Worldwise",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -10,12 +10,10 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "server": "json-server --watch data/cities.json --port 9000 --delay 500"
+    "preview": "vite preview"
   },
   "dependencies": {
     "gh-pages": "^6.3.0",
-    "json-server": "^0.17.4",
     "leaflet": "^1.9.4",
     "react": "^18.2.0",
     "react-datepicker": "^9.1.0",
