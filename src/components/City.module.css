@@ -1,9 +1,7 @@
 .city {
   padding: 2rem 3rem;
-  max-height: 70%;
   background-color: var(--color-dark--2);
   border-radius: 7px;
-  overflow: auto;
 
   width: 100%;
   display: flex;
@@ -42,6 +40,12 @@
 
 .city a:link,
 .city a:visited {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   color: var(--color-brand--1);
+
+  @media (min-width: 850px) {
+    & {
+      font-size: 1.6rem;
+    }
+  }
 }
